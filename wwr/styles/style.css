@@ -66,13 +66,13 @@ footer a {
 footer a:hover { 
     background-color: #168aad ;
     color: #fff;
-    text-decoration: underline;
-    
 }
 footer p {
     font-size: 1.2em;
+} 
+footer p a:hover {
     text-decoration: underline;
-}  
+}     
 .home-title {
     background-color: #168aad;
     color: #fff
