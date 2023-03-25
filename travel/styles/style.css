@@ -5,13 +5,14 @@
     padding: 0;
     font-family: Lato, Roboto;
 }
+
 :root {
-    --primary-color: #3E72B7   ;
-    --secondary-color: #EAC024 ;
+    --primary-color: #3E72B7;
+    --secondary-color: #EAC024;
     --accent1-color: #6D95C8;
     --accent2-color: white;
 
-    --text-background-secondary:#3E72B7 ;
+    --text-background-secondary: #3E72B7;
     --text-background-accent1: #fff;
 }
 
@@ -21,6 +22,7 @@ header {
     display: flex;
     padding: 0 4vw;
 }
+
 .logo-container {
     width: 22vw;
     display: flex;
@@ -28,9 +30,11 @@ header {
     align-content: center;
     align-items: center;
 }
-#logo_link > img{
+
+#logo_link>img {
     width: 100%;
 }
+
 /* Style the links inside the pill navigation menu */
 .pill-nav a {
     display: inline-block;
@@ -41,20 +45,21 @@ header {
     text-decoration: none;
     font-size: 2.5vh;
     border-radius: 5px;
-  }
-  
-  /* Change the color of links on mouse-over */
-  .pill-nav a:hover {
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
-  }
-  
-  /* Add a color to the active/current link */
-  .pill-nav a.active {
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-  }
-.pill-nav{
+}
+
+.pill-nav {
     width: 100%;
     display: inline-flex;
     justify-content: center;
@@ -62,27 +67,88 @@ header {
     align-items: center;
 }
 
-#introduction{
+#introduction {
     padding: 3vh 2vw;
-
 }
 
-.home-title{
-    font-size:3vw ;
+.beaches-title {
+    font-size: 3vw;
     text-align: center;
-    margin-bottom:3vh ;
+    margin-bottom: 3vh;
+    margin-top: 1.5vw;
     color: var(--primary-color);
 
 }
-.information-container{
+
+.home-title {
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3vh;
+    color: var(--primary-color);
+}
+.punta-del-este-title{
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 2vh;
+    color: var(--primary-color);
+
+}
+.information-container {
     display: flex;
 }
+.punta-del-este-container{
+    display: flex
+}
+.intro-beaches-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 88vw;
+    height: 18vh;
+    text-align: center;
+    background-color: var(--primary-color);
+    margin-right: 3vh;
+    margin-left: 3vh;
+    margin-bottom: 1vw;
+    color: var(--text-background-accent1);
+    padding: 8vh 8vh;
+    font-size: 1.3vw;
+}
+#Punta-del-Este {
+    margin-bottom: 10vh;
+}
+.punta-del-este-container>div{
+    background-color: var(--primary-color);
+    margin: 0 3vh 0 1vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+}
+.punta-del-este-container>img{
+    margin-left: 3vh;
+}
+.punta-del-este-container>img, 
+.punta-del-este-container>div {
+    width:50vw ;
+    height: 50vh;
 
-.information-container > div {
+}
+.punta-del-este-container>div>p {
+    color: var(--text-background-accent1);
+    font-size: 1.3vw;
+    padding: 8vh 5vw;
+    text-align: center;    
+}
+
+.information-container>div {
     width: 65vw;
     height: 26vh;
 }
-.information-container > div > p{
+
+.information-container>div>p {
     background-color: var(--primary-color);
     margin-right: 3vh;
     color: var(--text-background-accent1);
@@ -90,11 +156,9 @@ header {
     font-size: 1.3vw;
 }
 
-.information-container > img {
+.information-container>img {
     width: 34vw;
 }
-
-
 
 #slider {
     font-family: sans-serif;
@@ -186,13 +250,15 @@ footer {
     font-size: 1vw;
     color: var(--secondary-color);
 }
-.logo-reg > img {
+
+.logo-reg>img {
     width: 12vw;
 }
+
 .link-plan {
     text-decoration: none;
 }
+
 .link-plan:visited {
     color: var(--secondary-color);
-
 }
